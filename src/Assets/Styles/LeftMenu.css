@@ -1,0 +1,26 @@
+.leftMenu ul {
+  /*set the left menu to display flex column and center */
+  display: flex;
+  flex-flow: column wrap;
+  list-style-type: none; /* remove horrible ul style */
+  justify-content: flex-start;
+
+  /* set the margin to 0px so that navbar starts from the top of the page
+  padding 20px so that the gray backgorund would take more space and not only
+  the height of the text inside navbar */
+  background-color: white;
+  border: 1px solid #e8ecef;
+  padding: 20px;
+  margin: 0px;
+  height: 90vh;
+  width: 30%;
+}
+
+.leftMenu li {
+  padding: 10px;
+}
+
+.leftMenu li:nth-child(2n) {
+  border-bottom: 1px solid #e8ecef;
+  border-top: 1px solid #e8ecef;
+}

@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box; /*lets include the border and padding as well to determine the width*/
+
+  /* set overall font */
+  font-size: 1.3rem;
+  font-family: "Sora", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; /* always border-box - easier to calculate */
+}
+
+body {
+  /*some browsers have padding some margins */
+  margin: 0;
+  padding: 0;
+  background-color:#F8F9FA;
+}

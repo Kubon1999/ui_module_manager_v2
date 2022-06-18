@@ -1,0 +1,23 @@
+nav ul {
+  /*set the navbar to displat flex row and center */
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none; /* remove horrible ul style */
+  gap: 3%;
+  justify-content: center;
+
+  /* set the margin to 0px so that navbar starts from the top of the page
+  padding 20px so that the gray backgorund would take more space and not only
+  the height of the text inside navbar */
+  background-color: white;
+  border: 1px solid #e8ecef;
+  padding: 3vh;
+  margin: 0px;
+  height: 10vh;
+}
+
+/* remove the decoration and blue color from links */
+nav a {
+  color: black;
+  text-decoration: none;
+}
